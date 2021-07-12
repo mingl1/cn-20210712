@@ -20,6 +20,12 @@ export const products = [
   },
   {
     id: 3,
+    name: 'Android Phone',
+    price: 499,
+    description: 'Samsung Phone'
+  },
+  {
+    id: 4,
     name: 'Phone Standard',
     price: 299,
     description: ''
