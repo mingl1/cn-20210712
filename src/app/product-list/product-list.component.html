@@ -13,9 +13,13 @@
   </p>
 
   <button (click)="share()">
-    Share
+    click me
   </button>
 
+  <app-product-alerts
+    [product]="product"
+    (notify)="onNotify()">
+  </app-product-alerts>
 </div>
 
 <!-- 
